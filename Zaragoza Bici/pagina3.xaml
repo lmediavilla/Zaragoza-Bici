@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="Zaragoza_Bici.pagina3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Zaragoza_Bici"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" x:Name="pg3">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="CadetBlue">
+
+            <TextBlock Text="Paradas favoritas" FontSize="20"/>
+           
+        </Grid>
+        <Grid Grid.Row="14" Background="CadetBlue">
+
+            
+            <Button x:Name="button" Content="Eliminar Favoritos" HorizontalAlignment="Left"  VerticalAlignment="Center" Height="50" Click="button_Click"/>
+        </Grid>
+    </Grid>
+</Page>
